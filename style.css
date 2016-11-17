@@ -1,17 +1,18 @@
 body {
-  padding: 0;
-  margin: 0;
-  background-color:  rgb(200, 200, 230);
-  text-align: center;
+  /* Old browsers */
+  background-color: rgb(200, 200, 230);
+  /* Chrome 10-25, Safar 5.1-6 */
 }
 
 a {
-  color: Black;
+  color: rgb(0,0,0);
   text-decoration: none;
+  text-align: left;
+  margin-left: 500;
 }
 
 h1 {
-  font-family: 'Covered By Your Grace', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: rgba(3, 101, 100, 0.75);
   text-align: center;
 }
@@ -22,7 +23,10 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 100;
+  text-align: center;
 }
 img {
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
