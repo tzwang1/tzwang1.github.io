@@ -1,3 +1,4 @@
+
 body {
   /* Old browsers */
   background-color: rgb(200, 200, 230);
@@ -10,6 +11,12 @@ a {
   text-align: left;
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
+
+}
+.navigation {
+  display: inline-block;
+  padding: 5px;
+  font-family: "Quicksand", sans-serif;
 
 }
 
