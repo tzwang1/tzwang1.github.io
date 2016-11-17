@@ -12,11 +12,11 @@ a {
   font-family: "Playfair Display", sans-serif;
 }
 
-h1 {
+#title {
   font-family: "Raleway", sans-serif;
   color: rgba(3, 101, 100, 0.75);
   text-align: center;
-
+  top: 25%;
 }
 
 p {
