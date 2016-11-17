@@ -1,0 +1,22 @@
+* {
+  font-family: 'Arial', cursive;
+}
+
+body {
+  padding: 0;
+  margin: 100;
+  background: #f7f7f7;
+}
+
+a {
+  color: SeaGreen;
+  text-decoration: none;
+}
+
+h1 {
+  color: DarkSlateGray;
+}
+
+img {
+
+}
