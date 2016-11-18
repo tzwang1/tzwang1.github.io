@@ -1,4 +1,7 @@
-
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   /* Old browsers */
   background-color: rgb(200, 200, 230);
@@ -11,13 +14,16 @@ a {
   text-align: left;
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
+  padding-left: 20px;
 
 }
 .navigation {
-  padding: 5px;
+  padding: 10px;
   font-family: "Quicksand", sans-serif;
   text-transform: uppercase;
-  text-align: right;
+  position: fixed;
+  background-color: rgba(180, 150, 150, 0.7);
+  width: 100%;
 
 }
 
@@ -31,6 +37,7 @@ a {
   border: 6px solid #000;
   border-radius: 50px;
   text-align: center;
+  margin: 20px;
 }
 
 .body {
@@ -48,7 +55,7 @@ a {
   font-family: "Raleway", sans-serif;
   color: rgba(3, 101, 100, 0.75);
   text-align: center;
-  top: 25%;
+  padding-top: 80px;
   min-width: 400px;
 }
 
@@ -57,6 +64,10 @@ li {
   display: inline-block;
   padding-right: 20px;
   font-size: 20px;
+}
+
+li:hover {
+  color: rgb(40, 125, 190);
 }
 
 p {
