@@ -22,7 +22,7 @@ a {
   font-family: "Quicksand", sans-serif;
   text-transform: uppercase;
   position: fixed;
-  background-color: rgba(180, 150, 150, 0.7);
+  background-color: rgba(180, 150, 150, 1);
   width: 100%;
 
 }
@@ -51,12 +51,22 @@ a {
   padding: 5px 10px;
 
 }
+
+.links {
+  padding-bottom: 20px;
+  margin: 10px;
+}
 #title {
   font-family: "Raleway", sans-serif;
   color: rgba(3, 101, 100, 0.75);
   text-align: center;
   padding-top: 80px;
   min-width: 400px;
+}
+
+#animated_girl {
+  text-align: center;
+  display: block;
 }
 
 li {
