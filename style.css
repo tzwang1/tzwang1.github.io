@@ -6,6 +6,7 @@ body {
   /* Old browsers */
   background-color: rgb(200, 200, 230);
   /* Chrome 10-25, Safar 5.1-6 */
+  background-image: -webkit-linear-gradient(#BF6353, #FFD194);
 }
 
 a {
